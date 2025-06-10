@@ -81,21 +81,21 @@ export default function Home() {
               </p>
 
               <p>
-                While I 💖 the design-dev-writer intersection, I've also crafted visual identities and digital
+                I thrive ✨ at the intersection of design, writing, and development, but I've also crafted visual identities and digital
                 experiences for major Brazilian companies like{" "}
-                <Link href="#" className="text-[#d97757] hover:underline">
+                <Link href="https://www.cloudwalk.io/" className="text-[#d97757] hover:underline">
                   CloudWalk
                 </Link>
                 ,{" "}
-                <Link href="#" className="text-[#d97757] hover:underline">
+                <Link href="https://petrobras.com.br/" className="text-[#d97757] hover:underline">
                   Petrobras
                 </Link>
                 ,{" "}
-                <Link href="#" className="text-[#d97757] hover:underline">
+                <Link href="https://vale.com/" className="text-[#d97757] hover:underline">
                   Vale
                 </Link>
                 , and{" "}
-                <Link href="#" className="text-[#d97757] hover:underline">
+                <Link href="https://www.ambev.com.br/" className="text-[#d97757] hover:underline">
                   Ambev
                 </Link>
                 .
