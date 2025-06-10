@@ -8,8 +8,10 @@ export default function Home() {
         {/* Sidebar */}
         <aside className="w-64 min-h-screen p-6 border-r border-gray-200 fixed left-0 top-0">
           <div className="space-y-6">
-            {/* Logo placeholder */}
-            <div className="w-12 h-12 bg-gray-200 rounded"></div>
+            {/* Logo */}
+            <div className="w-12 h-12">
+              <img src="/AB-Logo25.jpg" alt="AB Studio Logo" className="w-12 h-12 object-contain rounded" />
+            </div>
 
             {/* Name and title */}
             <div className="space-y-2">
@@ -72,7 +74,7 @@ export default function Home() {
             <div className="space-y-6 text-gray-800">
               <p>
                 I'm Alexandre Bobeda, the founder of{" "}
-                <Link href="#" className="text-[#d97757] hover:underline">
+                <Link href="https://www.userecipfy.com/" className="text-[#d97757] hover:underline">
                   Recipfy
                 </Link>
                 , my first bootstrapped app, and a visual and graphic designer who bridges creativity with code.
@@ -104,13 +106,13 @@ export default function Home() {
                 <Link href="https://www.niftygateway.com/" className="text-[#d97757] hover:underline">
                   NiftyGateway
                 </Link>{" "}
-                and <Link href="https://knownorigin.io/" className="text-[#d97757] hover:underline">KnownOrigin</Link>,{" "}
-                in addition to having my work showcased at
-                  NFT Paris 2023.
-                I've also released{" "}
-                  Tecmo,
-                a brutalist pixel typeface inspired by old bitmap fonts from the '80s, and authored several books published
-                worldwide on Apple iBooks, Amazon, and Kobo Rakuten.
+                and{" "}
+                <Link href="https://knownorigin.io/" className="text-[#d97757] hover:underline">
+                  KnownOrigin
+                </Link>
+                , in addition to having my work showcased at NFT Paris 2023. I've also released Tecmo, a brutalist pixel
+                typeface inspired by old bitmap fonts from the '80s, and authored several books published worldwide on
+                Apple iBooks, Amazon, and Kobo Rakuten.
               </p>
 
               <p>I live in Rio de Janeiro, Brazil.</p>
@@ -121,7 +123,10 @@ export default function Home() {
             {/* Let's Hang Section */}
             <div className="space-y-4">
               <h3 className="text-lg font-medium">{"Let’s Connect"}</h3>
-              <p className="text-gray-800"><a href="mailto:hello@alexbobeda.com?subject=Let's%20work%20together!">Reach me out</a> if you're interested in working together.</p>
+              <p className="text-gray-800">
+                <a href="mailto:hello@alexbobeda.com?subject=Let's%20work%20together!">Reach me out</a> if you're
+                interested in working together.
+              </p>
             </div>
           </div>
 
