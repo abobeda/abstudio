@@ -124,7 +124,7 @@ export default function Home() {
             <div className="space-y-4">
               <h3 className="text-lg font-medium">{"Let’s Connect"}</h3>
               <p className="text-gray-800">
-                <a href="mailto:hello@alexbobeda.com?subject=Let's%20work%20together!">Reach me out</a> if you're
+                <Link href="mailto:hello@alexbobeda.com?subject=Let's%20work%20together!" className="text-[#d97757] hover:underline">Reach me out</Link> if you're
                 interested in working together.
               </p>
             </div>
