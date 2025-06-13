@@ -161,7 +161,7 @@ export default function Home() {
                 <Link href="https://www.userecipfy.com/" className="text-[#d97757] hover:underline">
                   Recipfy
                 </Link>
-                , my first bootstrapped app, and a visual and graphic designer who bridges creativity with code.
+                , my first bootstrapped app, and a visual designer and UX/Copy Writer who bridges creativity with code.
               </p>
 
               <p>
