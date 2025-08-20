@@ -158,14 +158,17 @@ export default function Home() {
             <div className="space-y-4 md:space-y-6 text-gray-800">
               <p>
                 I'm Alexandre Bobeda, the creator of{" "}
-                <Link href="https://www.userecipfy.com/" className="text-[#d97757] hover:underline">
-                  Recipfy
+                <Link href="https://www.shockvueapp.com/" className="text-[#d97757] hover:underline">
+                  Shockvue
                 </Link>
-                , my first bootstrapped app, and a visual designer and UX/Copy Writer who bridges creativity with code.
+                , an AI image editor, and a visual designer and UX/Copy Writer who bridges creativity with code.
               </p>
 
               <p>
-                I thrive ✨ at the intersection of design, writing, and development, but I've also crafted visual
+                I've also built <Link href="https://www.userecipfy.com/" className="text-[#d97757] hover:underline">
+                  Recipfy
+                </Link>
+                , my first bootstrapped app. I thrive ✨ at the intersection of design, writing, and development, but I've also crafted visual
                 identities and digital experiences for major Brazilian companies like{" "}
                 <Link href="https://www.cloudwalk.io/" className="text-[#d97757] hover:underline">
                   CloudWalk
