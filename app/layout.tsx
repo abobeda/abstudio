@@ -4,7 +4,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Alexandre Bobeda / AB Studio",
-  description: "Visual Designer + Writer + Coder",
+  description: "Visual Designer + Creative Coder",
   generator: "v0.dev",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   icons: {
