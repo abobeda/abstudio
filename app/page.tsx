@@ -220,7 +220,7 @@ export default function Home() {
 
           {/* Footer */}
           <footer className="mt-12 md:mt-16 pt-6 md:pt-8 border-t border-gray-200">
-            <p className="text-gray-600 text-xs">© 2025 Alexandre Bobeda / AB Studio</p>
+            <p className="text-gray-600 text-xs">© 2026 Alexandre Bobeda / AB Studio</p>
           </footer>
         </main>
       </div>
