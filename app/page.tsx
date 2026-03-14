@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           <button
             onClick={toggleMobileMenu}
-            className="p-2 text-gray-600 hover:text-[#d97757]"
+            className="p-2 text-gray-600 hover:text-[#5B8A87]"
             aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
