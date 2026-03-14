@@ -208,7 +208,7 @@ export default function Home() {
               <h3 className="text-lg font-medium">{"Let's Connect"}</h3>
               <p className="text-gray-800">
                 <Link
-                  href="mailto:hello@alexbobeda.com?subject=Let's%20work%20together!"
+                  href="mailto:abobeda@gmail.com?subject=Let's%20work%20together!"
                   className="text-[#5B8A87] hover:underline"
                 >
                   Reach me out
