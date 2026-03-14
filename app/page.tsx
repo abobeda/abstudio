@@ -38,10 +38,10 @@ export default function Home() {
             <div className="space-y-2">
               <div className="text-gray-600 space-y-1">
                 <p>Visual Designer</p>
-                <p>Writer</p>
-                <p>Founder of Recipfy</p>
-                <p>Design-Dev-Writer</p>
-                <p>Author</p>
+                <p>Creative coder</p>
+                <p>Creator of OpenZero</p>
+                <p>Creator of Recipfy</p>
+                <p>Design × software × art × AI</p>
                 <p>Rio de Janeiro, Brazil</p>
               </div>
             </div>
@@ -49,7 +49,7 @@ export default function Home() {
             <div className="space-y-4 pt-4 border-t border-gray-100">
               <Link
                 href="https://x.com/alexandrebobeda"
-                className="flex items-center gap-2 text-[#d97757] hover:underline"
+                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
@@ -58,7 +58,7 @@ export default function Home() {
               </Link>
               <Link
                 href="https://www.linkedin.com/in/alexandrebobeda/"
-                className="flex items-center gap-2 text-[#d97757] hover:underline"
+                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
@@ -67,7 +67,7 @@ export default function Home() {
               </Link>
               <Link
                 href="https://www.behance.net/alexandrebobeda/"
-                className="flex items-center gap-2 text-[#d97757] hover:underline"
+                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
@@ -76,7 +76,7 @@ export default function Home() {
               </Link>
               <Link
                 href="https://www.instagram.com/alexandrebobeda/"
-                className="flex items-center gap-2 text-[#d97757] hover:underline"
+                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
@@ -122,7 +122,7 @@ export default function Home() {
               </Link>
               <Link
                 href="https://www.linkedin.com/in/alexandrebobeda/"
-                className="flex items-center gap-2 text-[#d97757] hover:underline"
+                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -130,7 +130,7 @@ export default function Home() {
               </Link>
               <Link
                 href="https://www.behance.net/alexandrebobeda/"
-                className="flex items-center gap-2 text-[#d97757] hover:underline"
+                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -138,7 +138,7 @@ export default function Home() {
               </Link>
               <Link
                 href="https://www.instagram.com/alexandrebobeda/"
-                className="flex items-center gap-2 text-[#d97757] hover:underline"
+                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -152,7 +152,7 @@ export default function Home() {
         <main className="flex-1 md:ml-64 p-6 md:p-12 max-w-4xl mt-16 md:mt-0">
           <div className="space-y-6 md:space-y-8">
             {/* Greeting */}
-            <h2 className="text-[#d97757] text-lg">Hi there!</h2>
+            <h2 className="text-[#5B8A87] text-lg">Hi there!</h2>
 
             {/* Main Bio */}
             <div className="space-y-4 md:space-y-6 text-gray-800">
@@ -161,24 +161,24 @@ export default function Home() {
               </p>
 
               <p>
-                I've also built <Link href="https://www.userecipfy.com/" className="text-[#d97757] hover:underline">
+                I've also built <Link href="https://www.userecipfy.com/" className="text-[#5B8A87] hover:underline">
                   Recipfy
                 </Link>
                 , my first bootstrapped app. I thrive ✨ at the intersection of design, art, writing, and development, but I've also crafted visual
                 identities and digital experiences for major Brazilian companies like{" "}
-                <Link href="https://www.cloudwalk.io/" className="text-[#d97757] hover:underline">
+                <Link href="https://www.cloudwalk.io/" className="text-[#5B8A87] hover:underline">
                   CloudWalk
                 </Link>
                 ,{" "}
-                <Link href="https://petrobras.com.br/" className="text-[#d97757] hover:underline">
+                <Link href="https://petrobras.com.br/" className="text-[#5B8A87] hover:underline">
                   Petrobras
                 </Link>
                 ,{" "}
-                <Link href="https://vale.com/" className="text-[#d97757] hover:underline">
+                <Link href="https://vale.com/" className="text-[#5B8A87] hover:underline">
                   Vale
                 </Link>
                 , and{" "}
-                <Link href="https://www.ambev.com.br/" className="text-[#d97757] hover:underline">
+                <Link href="https://www.ambev.com.br/" className="text-[#5B8A87] hover:underline">
                   Ambev
                 </Link>
                 .
@@ -186,11 +186,11 @@ export default function Home() {
 
               <p>
                 During the web3 craze, I created NFTs that sold on major markets like{" "}
-                <Link href="https://www.niftygateway.com/" className="text-[#d97757] hover:underline">
+                <Link href="https://www.niftygateway.com/" className="text-[#5B8A87] hover:underline">
                   NiftyGateway
                 </Link>{" "}
                 and{" "}
-                <Link href="https://knownorigin.io/" className="text-[#d97757] hover:underline">
+                <Link href="https://knownorigin.io/" className="text-[#5B8A87] hover:underline">
                   KnownOrigin
                 </Link>
                 , in addition to having my work showcased at NFT Paris 2023. I've also released Tecmo, a brutalist pixel
@@ -209,7 +209,7 @@ export default function Home() {
               <p className="text-gray-800">
                 <Link
                   href="mailto:hello@alexbobeda.com?subject=Let's%20work%20together!"
-                  className="text-[#d97757] hover:underline"
+                  className="text-[#5B8A87] hover:underline"
                 >
                   Reach me out
                 </Link>{" "}
