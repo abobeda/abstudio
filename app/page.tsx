@@ -114,7 +114,7 @@ export default function Home() {
             <div className="space-y-2">
               <Link
                 href="https://x.com/alexandrebobeda"
-                className="flex items-center gap-2 text-[#d97757] hover:underline"
+                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
