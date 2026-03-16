@@ -154,7 +154,15 @@ export default function Home() {
         <main className="flex-1 md:ml-64 p-6 md:p-12 max-w-4xl mt-16 md:mt-0">
           <div className="space-y-6 md:space-y-8">
             {/* Greeting */}
-            <h2 className="text-[#5B8A87] text-lg">Hi there!</h2>
+            <div className="w-32 h-auto">
+              <Image 
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hi-dvigVNiF3sMK1TQDEXlMRmnXnXNm6B.png" 
+                alt="Hi there!" 
+                width={120} 
+                height={60} 
+                className="w-full h-auto"
+              />
+            </div>
 
             {/* Main Bio */}
             <div className="space-y-4 md:space-y-6 text-gray-800">
