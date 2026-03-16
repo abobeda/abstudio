@@ -166,10 +166,6 @@ export default function Home() {
                 </Link>
                 , my first bootstrapped app. I thrive ✨ at the intersection of design, art, writing, and development, but I've also crafted visual
                 identities and digital experiences for major Brazilian companies like{" "}
-                <Link href="https://www.cloudwalk.io/" className="text-[#5B8A87] hover:underline">
-                  CloudWalk
-                </Link>
-                ,{" "}
                 <Link href="https://petrobras.com.br/" className="text-[#5B8A87] hover:underline">
                   Petrobras
                 </Link>
@@ -181,7 +177,11 @@ export default function Home() {
                 <Link href="https://www.ambev.com.br/" className="text-[#5B8A87] hover:underline">
                   Ambev
                 </Link>
-                .
+                . I also contributed to UX, marketing, and design at a fintech, {" "}
+                <Link href="https://www.cloudwalk.io/" className="text-[#5B8A87] hover:underline">
+                  CloudWalk
+                </Link>
+                ,
               </p>
 
               <p>
