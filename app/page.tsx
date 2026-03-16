@@ -121,7 +121,7 @@ export default function Home() {
                 X <ArrowUpRight className="w-3 h-3" />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/alexandrebobeda/"
+                href="https://www.instagram.com/alexandrebobeda/"
                 className="flex items-center gap-2 text-[#5B8A87] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -129,7 +129,7 @@ export default function Home() {
                 Instagram <ArrowUpRight className="w-3 h-3" />
               </Link>
               <Link
-                href="https://www.behance.net/alexandrebobeda/"
+                href="https://www.linkedin.com/in/alexandrebobeda/"
                 className="flex items-center gap-2 text-[#5B8A87] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -137,7 +137,7 @@ export default function Home() {
                 LinkedIn <ArrowUpRight className="w-3 h-3" />
               </Link>
               <Link
-                href="https://www.instagram.com/alexandrebobeda/"
+                href="https://www.behance.net/alexandrebobeda/"
                 className="flex items-center gap-2 text-[#5B8A87] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
