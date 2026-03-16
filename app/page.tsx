@@ -39,6 +39,7 @@ export default function Home() {
               <div className="text-gray-600 space-y-1">
                 <p>Visual Designer</p>
                 <p>Creative coder</p>
+                <p>Writer</p>
                 <p>Creator of OpenZero</p>
                 <p>Creator of Recipfy</p>
                 <p>Design × software × art × AI</p>
@@ -103,6 +104,7 @@ export default function Home() {
               <div className="text-gray-600 space-y-1">
                 <p>Visual Designer</p>
                 <p>Creative coder</p>
+                <p>Writer</p>
                 <p>Creator of OpenZero</p>
                 <p>Creator of Recipfy</p>
                 <p>Design × software × art × AI</p>
@@ -152,12 +154,20 @@ export default function Home() {
         <main className="flex-1 md:ml-64 p-6 md:p-12 max-w-4xl mt-16 md:mt-0">
           <div className="space-y-6 md:space-y-8">
             {/* Greeting */}
-            <h2 className="text-[#5B8A87] text-lg">Hi there!</h2>
+            <div className="w-32 h-auto">
+              <Image 
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hi-dvigVNiF3sMK1TQDEXlMRmnXnXNm6B.png" 
+                alt="Hi there!" 
+                width={120} 
+                height={60} 
+                className="w-full h-auto"
+              />
+            </div>
 
             {/* Main Bio */}
             <div className="space-y-4 md:space-y-6 text-gray-800">
               <p>
-                I'm Alexandre Bobeda, the creator of OpenZero, a generative AI platform, and a visual designer and UX/Copywriter who bridges creativity with code.
+                I'm Alexandre Bobeda, the creator of <Link href="https://www.openzero.com.br/" className="text-[#5B8A87] hover:underline">OpenZero</Link>, a generative AI platform, and a visual designer and UX/Copywriter who bridges creativity with code.
               </p>
 
               <p>
@@ -165,37 +175,11 @@ export default function Home() {
                   Recipfy
                 </Link>
                 , my first bootstrapped app. I thrive ✨ at the intersection of design, art, writing, and development, but I've also crafted visual
-                identities and digital experiences for major Brazilian companies like{" "}
-                <Link href="https://www.cloudwalk.io/" className="text-[#5B8A87] hover:underline">
-                  CloudWalk
-                </Link>
-                ,{" "}
-                <Link href="https://petrobras.com.br/" className="text-[#5B8A87] hover:underline">
-                  Petrobras
-                </Link>
-                ,{" "}
-                <Link href="https://vale.com/" className="text-[#5B8A87] hover:underline">
-                  Vale
-                </Link>
-                , and{" "}
-                <Link href="https://www.ambev.com.br/" className="text-[#5B8A87] hover:underline">
-                  Ambev
-                </Link>
-                .
-              </p>
+                identities and digital experiences for major Brazilian companies like Petrobras, Vale, and Ambev. I also contributed to UX, marketing, and design at a fintech, CloudWalk.
+                </p>
 
               <p>
-                During the web3 craze, I created NFTs that sold on major markets like{" "}
-                <Link href="https://www.niftygateway.com/" className="text-[#5B8A87] hover:underline">
-                  NiftyGateway
-                </Link>{" "}
-                and{" "}
-                <Link href="https://knownorigin.io/" className="text-[#5B8A87] hover:underline">
-                  KnownOrigin
-                </Link>
-                , in addition to having my work showcased at NFT Paris 2023. I've also released Tecmo, a brutalist pixel
-                typeface inspired by old bitmap fonts from the '80s, and authored several books published worldwide on
-                Apple iBooks, Amazon, and Kobo Rakuten.
+                During the web3 craze, I created NFTs that sold on major markets like NiftyGateway and KnownOrigin, in addition to having my work showcased at NFT Paris 2023. I've also released Tecmo, a brutalist pixel typeface inspired by old bitmap fonts from the '80s, and authored several books published worldwide on Apple iBooks, Amazon, and Kobo Rakuten.
               </p>
 
               <p>I live in Rio de Janeiro, Brazil.</p>
