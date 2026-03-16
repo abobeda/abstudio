@@ -166,20 +166,10 @@ export default function Home() {
                 </Link>
                 , my first bootstrapped app. I thrive ✨ at the intersection of design, art, writing, and development, but I've also crafted visual
                 identities and digital experiences for major Brazilian companies like Petrobras, Vale, and Ambev. I also contributed to UX, marketing, and design at a fintech, CloudWalk.
-              </p>
+                </p>
 
               <p>
-                During the web3 craze, I created NFTs that sold on major markets like{" "}
-                <Link href="https://www.niftygateway.com/" className="text-[#5B8A87] hover:underline">
-                  NiftyGateway
-                </Link>{" "}
-                and{" "}
-                <Link href="https://knownorigin.io/" className="text-[#5B8A87] hover:underline">
-                  KnownOrigin
-                </Link>
-                , in addition to having my work showcased at NFT Paris 2023. I've also released Tecmo, a brutalist pixel
-                typeface inspired by old bitmap fonts from the '80s, and authored several books published worldwide on
-                Apple iBooks, Amazon, and Kobo Rakuten.
+                During the web3 craze, I created NFTs that sold on major markets like NiftyGateway and KnownOrigin, in addition to having my work showcased at NFT Paris 2023. I've also released Tecmo, a brutalist pixel typeface inspired by old bitmap fonts from the '80s, and authored several books published worldwide on Apple iBooks, Amazon, and Kobo Rakuten.
               </p>
 
               <p>I live in Rio de Janeiro, Brazil.</p>
