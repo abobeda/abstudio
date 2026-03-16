@@ -39,6 +39,7 @@ export default function Home() {
               <div className="text-gray-600 space-y-1">
                 <p>Visual Designer</p>
                 <p>Creative coder</p>
+                <p>Writer</p>
                 <p>Creator of OpenZero</p>
                 <p>Creator of Recipfy</p>
                 <p>Design × software × art × AI</p>
