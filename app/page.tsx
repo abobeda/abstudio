@@ -157,7 +157,7 @@ export default function Home() {
             {/* Main Bio */}
             <div className="space-y-4 md:space-y-6 text-gray-800">
               <p>
-                I'm Alexandre Bobeda, the creator of OpenZero, a generative AI platform, and a visual designer and UX/Copywriter who bridges creativity with code.
+                I'm Alexandre Bobeda, the creator of <Link href="https://www.https://www.openzero.com.br/" className="text-[#5B8A87] hover:underline">OpenZero</Link>, a generative AI platform, and a visual designer and UX/Copywriter who bridges creativity with code.
               </p>
 
               <p>
