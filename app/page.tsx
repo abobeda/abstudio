@@ -165,23 +165,7 @@ export default function Home() {
                   Recipfy
                 </Link>
                 , my first bootstrapped app. I thrive ✨ at the intersection of design, art, writing, and development, but I've also crafted visual
-                identities and digital experiences for major Brazilian companies like{" "}
-                <Link href="https://petrobras.com.br/" className="text-[#5B8A87] hover:underline">
-                  Petrobras
-                </Link>
-                ,{" "}
-                <Link href="https://vale.com/" className="text-[#5B8A87] hover:underline">
-                  Vale
-                </Link>
-                , and{" "}
-                <Link href="https://www.ambev.com.br/" className="text-[#5B8A87] hover:underline">
-                  Ambev
-                </Link>
-                . I also contributed to UX, marketing, and design at a fintech, {" "}
-                <Link href="https://www.cloudwalk.io/" className="text-[#5B8A87] hover:underline">
-                  CloudWalk
-                </Link>
-                ,
+                identities and digital experiences for major Brazilian companies like Petrobras, Vale, and Ambev. I also contributed to UX, marketing, and design at a fintech, CloudWalk.
               </p>
 
               <p>
