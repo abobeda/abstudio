@@ -192,10 +192,33 @@ export default function Home() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </Link>
-                {/* Placeholders for the remaining 8 items */}
-                {Array.from({ length: 8 }).map((_, i) => (
-                  <div key={i} className="aspect-square bg-gray-100" />
-                ))}
+                {/* Row 1 – slots 2 & 3 */}
+                <div className="aspect-square overflow-hidden bg-gray-100">
+                  <Image src="/work/vynil.webp" alt="Vinyl record with colorful light reflections" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                </div>
+                <div className="aspect-square overflow-hidden bg-gray-100">
+                  <Image src="/work/tecmo.webp" alt="Tecmo brutalist pixel font on a handheld gaming device" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                </div>
+                {/* Row 2 */}
+                <div className="aspect-square overflow-hidden bg-gray-100">
+                  <Image src="/work/cybergirlz.webp" alt="Cybergirlz NFT exhibition at NFT Paris 2023" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                </div>
+                <div className="aspect-square overflow-hidden bg-gray-100">
+                  <Image src="/work/btw.webp" alt="BTW – anime-style mecha illustration" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                </div>
+                <div className="aspect-square overflow-hidden bg-gray-100">
+                  <Image src="/work/escapade.webp" alt="Escapade Pictures brand identity on TV mockup" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                </div>
+                {/* Row 3 */}
+                <div className="aspect-square overflow-hidden bg-gray-100">
+                  <Image src="/work/tee.webp" alt="Nature's Symphony of Life t-shirt design" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                </div>
+                <div className="aspect-square overflow-hidden bg-gray-100">
+                  <Image src="/work/jp.webp" alt="Jurassic World Fallen Kingdom retro illustrated poster" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                </div>
+                <div className="aspect-square overflow-hidden bg-gray-100">
+                  <Image src="/work/akira.webp" alt="Akira book cover mockup" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                </div>
               </div>
             </div>
 
