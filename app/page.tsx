@@ -183,15 +183,15 @@ export default function Home() {
             <div className="space-y-4">
               <h3 className="text-lg font-medium">Past work</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3">
-                <div className="aspect-square overflow-hidden bg-gray-100">
+                <Link href="https://www.behance.net/gallery/227844709/Uno" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
                   <Image
                     src="/work/uno.webp"
                     alt="AI Voice Chatbot – iPad mockup by AB Studio"
                     width={400}
                     height={400}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                </div>
+                </Link>
                 {/* Placeholders for the remaining 8 items */}
                 {Array.from({ length: 8 }).map((_, i) => (
                   <div key={i} className="aspect-square bg-gray-100" />
