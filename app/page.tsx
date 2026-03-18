@@ -193,32 +193,32 @@ export default function Home() {
                   />
                 </Link>
                 {/* Row 1 – slots 2 & 3 */}
-                <div className="aspect-square overflow-hidden bg-gray-100">
-                  <Image src="/work/vynil.webp" alt="Vinyl record with colorful light reflections" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
-                <div className="aspect-square overflow-hidden bg-gray-100">
-                  <Image src="/work/tecmo.webp" alt="Tecmo brutalist pixel font on a handheld gaming device" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
+                <Link href="https://www.behance.net/gallery/215530981/Vinyl" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/vynil.webp" alt="Vinyl record with colorful light reflections" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                <Link href="https://www.behance.net/gallery/113773857/Tecmo-Brutalist-Pixel-Typeface" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/tecmo.webp" alt="Tecmo brutalist pixel font on a handheld gaming device" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
                 {/* Row 2 */}
-                <div className="aspect-square overflow-hidden bg-gray-100">
-                  <Image src="/work/cybergirlz.webp" alt="Cybergirlz NFT exhibition at NFT Paris 2023" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
-                <div className="aspect-square overflow-hidden bg-gray-100">
-                  <Image src="/work/btw.webp" alt="BTW – anime-style mecha illustration" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
-                <div className="aspect-square overflow-hidden bg-gray-100">
-                  <Image src="/work/escapade.webp" alt="Escapade Pictures brand identity on TV mockup" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
+                <Link href="https://www.behance.net/gallery/165953051/CyberGirlz-Yuki-KnownOrigin-(NFT-Paris-2023)" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/cybergirlz.webp" alt="Cybergirlz NFT exhibition at NFT Paris 2023" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                <Link href="https://www.behance.net/gallery/165951527/Beyond-the-Wreckages-Nifty-Gateway" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/btw.webp" alt="BTW – anime-style mecha illustration" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                <Link href="https://www.behance.net/gallery/222790801/Escapade-Pictures" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/escapade.webp" alt="Escapade Pictures brand identity on TV mockup" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
                 {/* Row 3 */}
-                <div className="aspect-square overflow-hidden bg-gray-100">
-                  <Image src="/work/tee.webp" alt="Nature's Symphony of Life t-shirt design" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
-                <div className="aspect-square overflow-hidden bg-gray-100">
-                  <Image src="/work/jp.webp" alt="Jurassic World Fallen Kingdom retro illustrated poster" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
-                <div className="aspect-square overflow-hidden bg-gray-100">
-                  <Image src="/work/akira.webp" alt="Akira book cover mockup" width={400} height={400} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
+                <Link href="https://www.behance.net/gallery/213754773/T-shirt-Design" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/tee.webp" alt="Nature's Symphony of Life t-shirt design" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                <Link href="https://www.behance.net/gallery/113772531/Jurassic-World-Fallen-Kingdom" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/jp.webp" alt="Jurassic World Fallen Kingdom retro illustrated poster" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                <Link href="https://www.behance.net/gallery/63022773/Akira-(book-cover)" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/akira.webp" alt="Akira book cover mockup" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
               </div>
             </div>
 
