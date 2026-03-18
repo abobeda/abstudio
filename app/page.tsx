@@ -179,6 +179,51 @@ export default function Home() {
 
             <hr className="border-gray-300" />
 
+            {/* Past Work Section */}
+            <div className="space-y-4">
+              <h3 className="text-lg font-medium">Past work</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3">
+                <Link href="https://www.behance.net/gallery/227844709/Uno" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image
+                    src="/work/uno.webp"
+                    alt="AI Voice Chatbot – iPad mockup by AB Studio"
+                    width={400}
+                    height={400}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </Link>
+                {/* Row 1 – slots 2 & 3 */}
+                <Link href="https://www.behance.net/gallery/215530981/Vinyl" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/vynil.webp" alt="Vinyl record with colorful light reflections" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                <Link href="https://www.behance.net/gallery/113773857/Tecmo-Brutalist-Pixel-Typeface" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/tecmo.webp" alt="Tecmo brutalist pixel font on a handheld gaming device" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                {/* Row 2 */}
+                <Link href="https://www.behance.net/gallery/165953051/CyberGirlz-Yuki-KnownOrigin-(NFT-Paris-2023)" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/cybergirlz.webp" alt="Cybergirlz NFT exhibition at NFT Paris 2023" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                <Link href="https://www.behance.net/gallery/165951527/Beyond-the-Wreckages-Nifty-Gateway" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/btw.webp" alt="BTW – anime-style mecha illustration" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                <Link href="https://www.behance.net/gallery/222790801/Escapade-Pictures" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/escapade.webp" alt="Escapade Pictures brand identity on TV mockup" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                {/* Row 3 */}
+                <Link href="https://www.behance.net/gallery/213754773/T-shirt-Design" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/tee.webp" alt="Nature's Symphony of Life t-shirt design" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                <Link href="https://www.behance.net/gallery/113772531/Jurassic-World-Fallen-Kingdom" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/jp.webp" alt="Jurassic World Fallen Kingdom retro illustrated poster" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+                <Link href="https://www.behance.net/gallery/63022773/Akira-(book-cover)" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+                  <Image src="/work/akira.webp" alt="Akira book cover mockup" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                </Link>
+              </div>
+            </div>
+
+            <hr className="border-gray-300" />
+
             {/* Let's Hang Section */}
             <div className="space-y-4">
               <h3 className="text-lg font-medium">{"Let's Connect"}</h3>
