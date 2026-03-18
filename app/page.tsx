@@ -181,7 +181,7 @@ export default function Home() {
 
             {/* Past Work Section */}
             <div className="space-y-4">
-              <h3 className="text-lg font-medium">Past work</h3>
+              <h2 className="text-[#5B8A87] text-lg">Past work</h2>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3">
                 <Link href="https://www.behance.net/gallery/227844709/Uno" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
                   <Image
@@ -226,7 +226,7 @@ export default function Home() {
 
             {/* Let's Hang Section */}
             <div className="space-y-4">
-              <h3 className="text-lg font-medium">{"Let's Connect"}</h3>
+              <h2 className="text-[#5B8A87] text-lg">{"Let's Connect"}</h2>
               <p className="text-gray-800">
                 <Link
                   href="mailto:abobeda@gmail.com?subject=Let's%20work%20together!"
