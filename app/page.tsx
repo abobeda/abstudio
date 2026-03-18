@@ -19,7 +19,7 @@ export default function Home() {
         <div className="flex items-center justify-between p-4">
           <div className="flex items-center gap-3">
             <Image src="/AB-Logo25.jpg" alt="AB Studio Logo" width={32} height={32} className="rounded" />
-            <span className="font-medium">Alexandre Bobeda</span>
+            <span className="font-bold">Alexandre Bobeda</span>
           </div>
           <button
             onClick={toggleMobileMenu}
