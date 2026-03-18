@@ -100,7 +100,7 @@ export default function Home() {
 
             {/* Name and title */}
             <div className="space-y-2">
-              <h1 className="font-medium">Alexandre Bobeda</h1>
+              <h1 className="font-bold">Alexandre Bobeda</h1>
               <div className="text-gray-600 space-y-1">
                 <p>Visual Designer</p>
                 <p>Creative coder</p>
