@@ -179,6 +179,28 @@ export default function Home() {
 
             <hr className="border-gray-300" />
 
+            {/* Past Work Section */}
+            <div className="space-y-4">
+              <h3 className="text-lg font-medium">Past work</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3">
+                <div className="aspect-square overflow-hidden bg-gray-100">
+                  <Image
+                    src="/work/uno.webp"
+                    alt="AI Voice Chatbot – iPad mockup by AB Studio"
+                    width={400}
+                    height={400}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                {/* Placeholders for the remaining 8 items */}
+                {Array.from({ length: 8 }).map((_, i) => (
+                  <div key={i} className="aspect-square bg-gray-100" />
+                ))}
+              </div>
+            </div>
+
+            <hr className="border-gray-300" />
+
             {/* Let's Hang Section */}
             <div className="space-y-4">
               <h3 className="text-lg font-medium">{"Let's Connect"}</h3>
