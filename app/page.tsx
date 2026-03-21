@@ -157,14 +157,11 @@ export default function Home() {
             {/* Main Bio */}
             <div className="space-y-4 md:space-y-6 text-gray-800">
               <p>
-                I'm Alexandre Bobeda, the creator of <Link href="https://www.openzero.com.br/" className="text-[#5B8A87] hover:underline">OpenZero</Link>, a generative AI platform, and a visual designer and UX/Copywriter who bridges creativity with code.
+                I'm Alexandre Bobeda, a visual designer, creative coder and UX/Copywriter who bridges creativity and art with code.
               </p>
 
               <p>
-                I've also built <Link href="https://www.userecipfy.com/" className="text-[#5B8A87] hover:underline">
-                  Recipfy
-                </Link>
-                , my first app, bootstrapped. I thrive ✨ at the intersection of design, art, writing, and development, but I've also crafted visual
+                I thrive ✨ at the intersection of design, art, writing, and development, but I've also crafted visual
                 identities and digital experiences for major Brazilian companies like Petrobras, Vale, and Ambev. I also contributed to UX, marketing, and design at a fintech, CloudWalk.
                 </p>
 
