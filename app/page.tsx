@@ -40,8 +40,6 @@ export default function Home() {
                 <p>Visual Designer</p>
                 <p>Creative coder</p>
                 <p>Writer</p>
-                <p>Creator of OpenZero</p>
-                <p>Creator of Recipfy</p>
                 <p>Design × software × art × AI</p>
                 <p>Rio de Janeiro, Brazil</p>
               </div>
@@ -105,8 +103,6 @@ export default function Home() {
                 <p>Visual Designer</p>
                 <p>Creative coder</p>
                 <p>Writer</p>
-                <p>Creator of OpenZero</p>
-                <p>Creator of Recipfy</p>
                 <p>Design × software × art × AI</p>
                 <p>Rio de Janeiro, Brazil</p>
               </div>
@@ -159,19 +155,16 @@ export default function Home() {
             {/* Main Bio */}
             <div className="space-y-4 md:space-y-6 text-gray-800">
               <p>
-                I'm Alexandre Bobeda, the creator of <Link href="https://www.openzero.com.br/" className="text-[#5B8A87] hover:underline">OpenZero</Link>, a generative AI platform, and a visual designer and UX/Copywriter who bridges creativity with code.
+                I'm Alexandre Bobeda, a visual designer, creative coder and UX/Copywriter who bridges creativity and art with code.
               </p>
 
               <p>
-                I've also built <Link href="https://www.userecipfy.com/" className="text-[#5B8A87] hover:underline">
-                  Recipfy
-                </Link>
-                , my first app, bootstrapped. I thrive ✨ at the intersection of design, art, writing, and development, but I've also crafted visual
+                I thrive ✨ at the intersection of design, art, writing, and development, but I've also crafted visual
                 identities and digital experiences for major Brazilian companies like Petrobras, Vale, and Ambev. I also contributed to UX, marketing, and design at a fintech, CloudWalk.
                 </p>
 
               <p>
-                During the web3 craze, I created NFTs that sold on major markets like NiftyGateway and KnownOrigin, in addition to having my work showcased at NFT Paris 2023. I've also released Tecmo, a brutalist pixel typeface inspired by old bitmap fonts from the '80s, and authored several books published worldwide on Apple iBooks, Amazon, and Kobo Rakuten.
+                During the web3 craze, I created NFTs that sold on major markets like NiftyGateway and KnownOrigin, in addition to having my work showcased at NFT Paris 2023. I’ve also worked on illustration projects deeply connected to my roots, beginning in the early ’90s, while releasing Tecmo—a brutalist pixel typeface inspired by ’80s bitmap fonts—and authoring some books published worldwide through Apple iBooks, Amazon, and Kobo Rakuten.
               </p>
 
               <p>I live in Rio de Janeiro, Brazil.</p>
