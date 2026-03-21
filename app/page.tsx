@@ -166,7 +166,7 @@ export default function Home() {
                 </p>
 
               <p>
-                During the web3 craze, I created NFTs that sold on major markets like NiftyGateway and KnownOrigin, in addition to having my work showcased at NFT Paris 2023. I’ve also worked on illustration projects deeply connected to my roots, beginning in the early ’90s, while releasing Tecmo—a brutalist pixel typeface inspired by ’80s bitmap fonts—and authoring several books published worldwide through Apple iBooks, Amazon, and Kobo Rakuten.
+                During the web3 craze, I created NFTs that sold on major markets like NiftyGateway and KnownOrigin, in addition to having my work showcased at NFT Paris 2023. I’ve also worked on illustration projects deeply connected to my roots, beginning in the early ’90s, while releasing Tecmo—a brutalist pixel typeface inspired by ’80s bitmap fonts—and authoring some books published worldwide through Apple iBooks, Amazon, and Kobo Rakuten.
               </p>
 
               <p>I live in Rio de Janeiro, Brazil.</p>
