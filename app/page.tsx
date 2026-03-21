@@ -103,8 +103,6 @@ export default function Home() {
                 <p>Visual Designer</p>
                 <p>Creative coder</p>
                 <p>Writer</p>
-                <p>Creator of OpenZero</p>
-                <p>Creator of Recipfy</p>
                 <p>Design × software × art × AI</p>
                 <p>Rio de Janeiro, Brazil</p>
               </div>
