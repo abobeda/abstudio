@@ -18,7 +18,7 @@ export default function Home() {
       <header className="md:hidden fixed top-0 left-0 right-0 bg-white z-50 border-b border-gray-200">
         <div className="flex items-center justify-between p-4">
           <div className="flex items-center gap-3">
-            <Image src="/AB-Logo25.jpg" alt="AB Studio Logo" width={32} height={32} className="rounded" />
+            <Image src="/AB-Logo25.jpg" alt="AB Studio Logo" width={32} height={32} className="rounded-full" />
             <span className="font-bold">Alexandre Bobeda</span>
           </div>
           <button
@@ -93,7 +93,7 @@ export default function Home() {
           <div className="space-y-6">
             {/* Logo */}
             <div className="w-12 h-12">
-              <Image src="/AB-Logo25.jpg" alt="AB Studio Logo" width={48} height={48} className="rounded" />
+              <Image src="/AB-Logo25.jpg" alt="AB Studio Logo" width={48} height={48} className="rounded-full" />
             </div>
 
             {/* Name and title */}
