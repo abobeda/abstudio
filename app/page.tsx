@@ -165,8 +165,10 @@ export default function Home() {
                 identities and digital experiences for major Brazilian companies like Petrobras, Vale, and Ambev. I also contributed to UX, marketing, and design at a fintech, CloudWalk.
                 </p>
 
-                <p>Recently, I developed and reelased <b>OpenZero</b>, a generative AI platform for image and video generation, and also <b>Recipfy</b>, an AI-tool that uses OCR to scan and organize recipes.
-                </p>
+                <p>
+I recently developed and released <b>OpenZero</b>, a generative AI platform for image and video creation, as well as <b>Recipfy</b>, an AI tool that leverages OCR technology to scan and organize recipes.
+</p>
+
 
               <p>
                 During the web3 craze, I created NFTs that sold on major markets like NiftyGateway and KnownOrigin, in addition to having my work showcased at NFT Paris 2023. I’ve also worked on illustration projects deeply connected to my roots, beginning in the early ’90s, while releasing Tecmo—a brutalist pixel typeface inspired by ’80s bitmap fonts—and authoring some books published worldwide through Apple iBooks, Amazon, and Kobo Rakuten.
