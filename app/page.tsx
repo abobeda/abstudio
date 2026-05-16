@@ -157,7 +157,7 @@ export default function Home() {
             {/* Main Bio */}
             <div className="space-y-4 md:space-y-6 text-gray-800">
               <p>
-                I'm Alexandre Bobeda, a visual designer, creative coder and UX/Copywriter who bridges creativity and art with code.
+                I'm Alexandre Bobeda, a visual designer, AI product designer, creative coder and UX/Copywriter who bridges creativity and art with code.
               </p>
 
               <p>
