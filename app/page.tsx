@@ -18,7 +18,7 @@ export default function Home() {
       <header className="md:hidden fixed top-0 left-0 right-0 bg-white z-50 border-b border-gray-200">
         <div className="flex items-center justify-between p-4">
           <div className="flex items-center gap-3">
-            <Image src="/AB-Logo25.jpg" alt="AB Studio Logo" width={32} height={32} className="rounded-full" />
+            <Image src="/AB-Logo25.jpg" alt="AB Studio Logo" width={32} height={32} className="rounded" />
             <span className="font-bold">Alexandre Bobeda</span>
           </div>
           <button
@@ -38,6 +38,7 @@ export default function Home() {
             <div className="space-y-2">
               <div className="text-gray-600 space-y-1">
                 <p>Visual Designer</p>
+                <p>Product Designer</p>
                 <p>Creative coder</p>
                 <p>Writer</p>
                 <p>Design × software × art × AI</p>
@@ -93,7 +94,7 @@ export default function Home() {
           <div className="space-y-6">
             {/* Logo */}
             <div className="w-12 h-12">
-              <Image src="/AB-Logo25.jpg" alt="AB Studio Logo" width={48} height={48} className="rounded-full" />
+              <Image src="/AB-Logo25.jpg" alt="AB Studio Logo" width={48} height={48} className="rounded" />
             </div>
 
             {/* Name and title */}
@@ -101,6 +102,7 @@ export default function Home() {
               <h1 className="font-bold">Alexandre Bobeda</h1>
               <div className="text-gray-600 space-y-1">
                 <p>Visual Designer</p>
+                <p>Product Designer</p>
                 <p>Creative coder</p>
                 <p>Writer</p>
                 <p>Design × software × art × AI</p>
@@ -155,13 +157,13 @@ export default function Home() {
             {/* Main Bio */}
             <div className="space-y-4 md:space-y-6 text-gray-800">
               <p>
-                I'm Alexandre Bobeda, a visual designer, creative coder and writer who bridges creativity and art with code.
+                I'm Alexandre Bobeda, a visual designer, creative coder and UX/Copywriter who bridges creativity and art with code.
               </p>
 
               <p>
                 I thrive ✨ at the intersection of design, art, writing, and development, but I've also crafted visual
                 identities and digital experiences for major Brazilian companies like Petrobras, Vale, and Ambev. I also contributed to UX, marketing, and design at a fintech, CloudWalk.
-              </p>
+                </p>
 
               <p>
                 During the web3 craze, I created NFTs that sold on major markets like NiftyGateway and KnownOrigin, in addition to having my work showcased at NFT Paris 2023. I’ve also worked on illustration projects deeply connected to my roots, beginning in the early ’90s, while releasing Tecmo—a brutalist pixel typeface inspired by ’80s bitmap fonts—and authoring some books published worldwide through Apple iBooks, Amazon, and Kobo Rakuten.
