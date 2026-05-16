@@ -166,8 +166,13 @@ export default function Home() {
                 </p>
 
                 <p>
-I recently developed and released <b>OpenZero</b>, a generative AI platform for image and video creation, as well as <b>Recipfy</b>, an AI tool that leverages OCR technology to scan and organize recipes.
+I recently developed and released 
+<a href="https://openzero.com.br" target="_blank"><b>OpenZero</b></a>, 
+a generative AI platform for image and video creation, as well as 
+<a href="https://userecipfy.com" target="_blank"><b>Recipfy</b></a>, 
+an AI tool that leverages OCR technology to scan and organize recipes.
 </p>
+
 
 
               <p>
