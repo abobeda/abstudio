@@ -1,255 +1,284 @@
-"use client"
-
-import { ArrowUpRight, Menu, X } from "lucide-react"
-import Link from "next/link"
-import { useState } from "react"
 import Image from "next/image"
+import Link from "next/link"
+import {
+  RiInstagramFill,
+  RiThreadsFill,
+  RiTwitterXLine,
+  RiLinkedinBoxFill,
+} from "@remixicon/react"
+import { ParallaxBanner } from "@/components/parallax-banner"
+
+const socialLinks = [
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/alexandrebobeda/",
+    icon: RiInstagramFill,
+  },
+  {
+    name: "Threads",
+    href: "https://www.threads.net/@alexandrebobeda",
+    icon: RiThreadsFill,
+  },
+  {
+    name: "X",
+    href: "https://x.com/alexandrebobeda",
+    icon: RiTwitterXLine,
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/alexandrebobeda/",
+    icon: RiLinkedinBoxFill,
+  },
+]
+
+const featuredProjects = [
+  {
+    title: "Grafite",
+    alt: "Grafite - Local-first moodboards for Windows",
+    src: "/work/grafite.webp",
+    href: "https://www.grafite.app/",
+  },
+  {
+    title: "OpenZero",
+    alt: "OpenZero",
+    src: "/work/openzero.webp",
+    href: "https://www.openzero.com.br/",
+  },
+]
+
+const projects = [
+  {
+    title: "Uno",
+    alt: "AI Voice Chatbot – iPad mockup by AB Studio",
+    src: "/work/uno.webp",
+    href: "https://www.behance.net/gallery/227844709/Uno",
+  },
+  {
+    title: "Vinyl",
+    alt: "Vinyl record with colorful light reflections",
+    src: "/work/vynil.webp",
+    href: "https://www.behance.net/gallery/215530981/Vinyl",
+  },
+  {
+    title: "Tecmo Brutalist Pixel Typeface",
+    alt: "Tecmo brutalist pixel font on a handheld gaming device",
+    src: "/work/tecmo.webp",
+    href: "https://www.behance.net/gallery/113773857/Tecmo-Brutalist-Pixel-Typeface",
+  },
+  {
+    title: "CyberGirlz Yuki",
+    alt: "Cybergirlz NFT exhibition at NFT Paris 2023",
+    src: "/work/cybergirlz.webp",
+    href: "https://www.behance.net/gallery/165953051/CyberGirlz-Yuki-KnownOrigin-(NFT-Paris-2023)",
+  },
+  {
+    title: "Beyond the Wreckages",
+    alt: "BTW – anime-style mecha illustration",
+    src: "/work/btw.webp",
+    href: "https://www.behance.net/gallery/165951527/Beyond-the-Wreckages-Nifty-Gateway",
+  },
+  {
+    title: "Escapade Pictures",
+    alt: "Escapade Pictures brand identity on TV mockup",
+    src: "/work/escapade.webp",
+    href: "https://www.behance.net/gallery/222790801/Escapade-Pictures",
+  },
+  {
+    title: "T-shirt Design",
+    alt: "Nature's Symphony of Life t-shirt design",
+    src: "/work/tee.webp",
+    href: "https://www.behance.net/gallery/213754773/T-shirt-Design",
+  },
+  {
+    title: "Jurassic World Fallen Kingdom",
+    alt: "Jurassic World Fallen Kingdom retro illustrated poster",
+    src: "/work/jp.webp",
+    href: "https://www.behance.net/gallery/113772531/Jurassic-World-Fallen-Kingdom",
+  },
+  {
+    title: "Akira",
+    alt: "Akira book cover mockup",
+    src: "/work/akira.webp",
+    href: "https://www.behance.net/gallery/63022773/Akira-(book-cover)",
+  },
+]
 
 export default function Home() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen)
-  }
-
   return (
-    <div className="min-h-screen bg-white font-mono text-sm leading-relaxed">
-      {/* Mobile Header */}
-      <header className="md:hidden fixed top-0 left-0 right-0 bg-white z-50 border-b border-gray-200">
-        <div className="flex items-center justify-between p-4">
-          <div className="flex items-center gap-3">
-            <Image src="/AB-Logo25.jpg" alt="AB Studio Logo" width={32} height={32} className="rounded" />
-            <span className="font-bold">Alexandre Bobeda</span>
-          </div>
-          <button
-            onClick={toggleMobileMenu}
-            className="p-2 text-gray-600 hover:text-[#5B8A87]"
-            aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
-          >
-            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+    <div id="top" className="min-h-screen bg-white font-mono text-sm leading-relaxed text-gray-900 selection:bg-[#5B8A87] selection:text-white">
+      {/* 1. ABOVE THE FOLD HERO - Viewport centered logo */}
+      <section className="h-screen min-h-screen w-full flex items-center justify-center p-6 bg-white relative">
+        <div className="relative w-full max-w-[280px] sm:max-w-[380px] md:max-w-[480px] lg:max-w-[560px] aspect-[800/280] transition-transform duration-300 hover:scale-[1.02]">
+          <Image
+            src="/bobeda.png"
+            alt="Bobeda"
+            fill
+            priority
+            sizes="(max-width: 640px) 280px, (max-width: 768px) 380px, (max-width: 1024px) 480px, 560px"
+            className="object-contain"
+          />
         </div>
-      </header>
+      </section>
 
-      {/* Mobile Menu Overlay */}
-      {mobileMenuOpen && (
-        <div className="fixed inset-0 bg-white z-40 pt-16 md:hidden">
-          <div className="p-6 space-y-6">
-            <div className="space-y-2">
-              <div className="text-gray-600 space-y-1">
-                <p>Visual Designer</p>
-                <p>Product Designer</p>
-                <p>Creative coder</p>
-                <p>Writer</p>
-                <p>Design × software × art × AI</p>
-                <p>Rio de Janeiro, Brazil</p>
-              </div>
-            </div>
-
-            <div className="space-y-4 pt-4 border-t border-gray-100">
-              <Link
-                href="https://x.com/alexandrebobeda"
-                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
+      {/* 2. SOCIAL STRIP - #222222 Background with Remix Icons */}
+      <section className="bg-[#222222] py-20 sm:py-24 md:py-28 px-6 w-full">
+        <div className="max-w-xl mx-auto flex items-center justify-center gap-8 sm:gap-12 md:gap-16">
+          {socialLinks.map((item) => {
+            const Icon = item.icon
+            return (
+              <a
+                key={item.name}
+                href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={() => setMobileMenuOpen(false)}
+                aria-label={item.name}
+                className="text-white hover:text-[#5B8A87] transition-all duration-200 transform hover:scale-110 active:scale-95"
               >
-                X <ArrowUpRight className="w-3 h-3" />
-              </Link>
-              <Link
-                href="https://www.instagram.com/alexandrebobeda"
-                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Instagram <ArrowUpRight className="w-3 h-3" />
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/alexandrebobeda/"
-                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                LinkedIn <ArrowUpRight className="w-3 h-3" />
-              </Link>
-              <Link
-                href="https://www.behance.net/alexandrebobeda/"
-                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Behance <ArrowUpRight className="w-3 h-3" />
-              </Link>
-            </div>
-          </div>
+                <Icon className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+              </a>
+            )
+          })}
         </div>
-      )}
+      </section>
 
-      <div className="flex flex-col md:flex-row">
-        {/* Sidebar - Hidden on mobile */}
-        <aside className="hidden md:block w-64 min-h-screen p-6 border-r border-gray-200 fixed left-0 top-0">
-          <div className="space-y-6">
-            {/* Logo */}
-            <div className="w-12 h-12">
-              <Image src="/AB-Logo25.jpg" alt="AB Studio Logo" width={48} height={48} className="rounded" />
-            </div>
+      {/* 3. PARALLAX 1 - space.jpg */}
+      <ParallaxBanner
+        src="/space.jpg"
+        alt="Space exploration"
+        heightClass="h-[360px] sm:h-[420px] md:h-[480px]"
+        objectPosition="center 40%"
+      />
 
-            {/* Name and title */}
-            <div className="space-y-2">
-              <h1 className="font-bold">Alexandre Bobeda</h1>
-              <div className="text-gray-600 space-y-1">
-                <p>Visual Designer</p>
-                <p>Product Designer</p>
-                <p>Creative coder</p>
-                <p>Writer</p>
-                <p>Design × software × art × AI</p>
-                <p>Rio de Janeiro, Brazil</p>
-              </div>
-            </div>
-
-            {/* Social Links */}
-            <div className="space-y-2">
-              <Link
-                href="https://x.com/alexandrebobeda"
-                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                X <ArrowUpRight className="w-3 h-3" />
-              </Link>
-              <Link
-                href="https://www.instagram.com/alexandrebobeda/"
-                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Instagram <ArrowUpRight className="w-3 h-3" />
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/alexandrebobeda/"
-                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn <ArrowUpRight className="w-3 h-3" />
-              </Link>
-              <Link
-                href="https://www.behance.net/alexandrebobeda/"
-                className="flex items-center gap-2 text-[#5B8A87] hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Behance <ArrowUpRight className="w-3 h-3" />
-              </Link>
-            </div>
-          </div>
-        </aside>
-
-        {/* Main Content - Adjusted for mobile */}
-        <main className="flex-1 md:ml-64 p-6 md:p-12 max-w-4xl mt-16 md:mt-0">
-          <div className="space-y-6 md:space-y-8">
-            {/* Greeting */}
-            <h2 className="text-[#5B8A87] text-lg">Hi there!</h2>
-
-            {/* Main Bio */}
-            <div className="space-y-4 md:space-y-6 text-gray-800">
-              <p>
-                I'm Alexandre Bobeda, a visual designer, AI product designer, creative coder and UX/Copywriter who bridges creativity and art with code.
-              </p>
-
-              <p>
-                I thrive ✨ at the intersection of design, art, writing, and development, but I've also crafted visual
-                identities and digital experiences for major Brazilian companies like Petrobras, Vale, and Ambev. I also contributed to UX, marketing, and design at a fintech, CloudWalk.
-                </p>
-
-                <p>
-I recently developed and released 
-<a href="https://openzero.com.br" target="_blank"><b>OpenZero</b></a>, 
-a generative AI platform for image and video creation, as well as 
-<a href="https://userecipfy.com" target="_blank"><b>Recipfy</b></a>, 
-an AI tool that leverages OCR technology to scan and organize recipes.
-</p>
-
-
-
-              <p>
-                During the web3 craze, I created NFTs that sold on major markets like NiftyGateway and KnownOrigin, in addition to having my work showcased at NFT Paris 2023. I’ve also worked on illustration projects deeply connected to my roots, beginning in the early ’90s, while releasing Tecmo—a brutalist pixel typeface inspired by ’80s bitmap fonts—and authoring some books published worldwide through Apple iBooks, Amazon, and Kobo Rakuten.
-              </p>
-
-              <p>I live in Rio de Janeiro, Brazil.</p>
-            </div>
-
-            <hr className="border-gray-300" />
-
-            {/* Past Work Section */}
-            <div className="space-y-4">
-              <h2 className="text-[#5B8A87] text-lg">Past work</h2>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3">
-                <Link href="https://www.behance.net/gallery/227844709/Uno" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
+      {/* 4. PAST WORK SECTION */}
+      <section id="past-work" className="py-16 md:py-24 px-6 max-w-4xl mx-auto w-full">
+        <div className="space-y-6">
+          <h2 className="text-[#5B8A87] text-lg font-bold">Past work</h2>
+          
+          <div className="space-y-4">
+            {/* Top row: 2 featured large squares with 16px gap */}
+            <div className="grid grid-cols-2 gap-4">
+              {featuredProjects.map((project) => (
+                <Link
+                  key={project.title}
+                  href={project.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="aspect-square overflow-hidden bg-gray-100 group relative block focus:outline-none focus:ring-2 focus:ring-[#5B8A87]"
+                >
                   <Image
-                    src="/work/uno.webp"
-                    alt="AI Voice Chatbot – iPad mockup by AB Studio"
-                    width={400}
-                    height={400}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    src={project.src}
+                    alt={project.alt}
+                    fill
+                    sizes="(max-width: 768px) 50vw, 424px"
+                    className="object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
                   />
                 </Link>
-                {/* Row 1 – slots 2 & 3 */}
-                <Link href="https://www.behance.net/gallery/215530981/Vinyl" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
-                  <Image src="/work/vynil.webp" alt="Vinyl record with colorful light reflections" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                </Link>
-                <Link href="https://www.behance.net/gallery/113773857/Tecmo-Brutalist-Pixel-Typeface" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
-                  <Image src="/work/tecmo.webp" alt="Tecmo brutalist pixel font on a handheld gaming device" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                </Link>
-                {/* Row 2 */}
-                <Link href="https://www.behance.net/gallery/165953051/CyberGirlz-Yuki-KnownOrigin-(NFT-Paris-2023)" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
-                  <Image src="/work/cybergirlz.webp" alt="Cybergirlz NFT exhibition at NFT Paris 2023" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                </Link>
-                <Link href="https://www.behance.net/gallery/165951527/Beyond-the-Wreckages-Nifty-Gateway" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
-                  <Image src="/work/btw.webp" alt="BTW – anime-style mecha illustration" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                </Link>
-                <Link href="https://www.behance.net/gallery/222790801/Escapade-Pictures" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
-                  <Image src="/work/escapade.webp" alt="Escapade Pictures brand identity on TV mockup" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                </Link>
-                {/* Row 3 */}
-                <Link href="https://www.behance.net/gallery/213754773/T-shirt-Design" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
-                  <Image src="/work/tee.webp" alt="Nature's Symphony of Life t-shirt design" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                </Link>
-                <Link href="https://www.behance.net/gallery/113772531/Jurassic-World-Fallen-Kingdom" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
-                  <Image src="/work/jp.webp" alt="Jurassic World Fallen Kingdom retro illustrated poster" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                </Link>
-                <Link href="https://www.behance.net/gallery/63022773/Akira-(book-cover)" target="_blank" rel="noopener noreferrer" className="aspect-square overflow-hidden bg-gray-100 cursor-pointer group">
-                  <Image src="/work/akira.webp" alt="Akira book cover mockup" width={400} height={400} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                </Link>
-              </div>
+              ))}
             </div>
 
-            <hr className="border-gray-300" />
-
-            {/* Let's Hang Section */}
-            <div className="space-y-4">
-              <h2 className="text-[#5B8A87] text-lg">{"Let's Connect"}</h2>
-              <p className="text-gray-800">
+            {/* Remaining work thumbs in 3-column grid */}
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4">
+              {projects.map((project) => (
                 <Link
-                  href="mailto:abobeda@gmail.com?subject=Let's%20work%20together!"
-                  className="text-[#5B8A87] hover:underline"
+                  key={project.title}
+                  href={project.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="aspect-square overflow-hidden bg-gray-100 group relative block focus:outline-none focus:ring-2 focus:ring-[#5B8A87]"
                 >
-                  Reach me out
-                </Link>{" "}
-                if you're interested in working together.
-              </p>
+                  <Image
+                    src={project.src}
+                    alt={project.alt}
+                    fill
+                    sizes="(max-width: 768px) 50vw, 33vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
+                  />
+                </Link>
+              ))}
             </div>
           </div>
+        </div>
+      </section>
 
-          {/* Footer */}
-          <footer className="mt-12 md:mt-16 pt-6 md:pt-8 border-t border-gray-200">
-            <p className="text-gray-600 text-xs">© 2026 Alexandre Bobeda / AB Studio</p>
-          </footer>
-        </main>
+      <div className="max-w-4xl mx-auto px-6">
+        <hr className="border-gray-200" />
       </div>
+
+      {/* 5. BIO SECTION - Hi there! */}
+      <section id="bio" className="py-16 md:py-24 px-6 max-w-4xl mx-auto w-full">
+        <div className="space-y-6">
+          <h2 className="text-[#5B8A87] text-lg font-bold">Hi there!</h2>
+          <div className="space-y-4 md:space-y-6 text-gray-800 leading-relaxed">
+            <p>
+              I&apos;m Alexandre Bobeda, a visual designer, AI product designer, creative coder and UX/Copywriter who bridges creativity and art with code.
+            </p>
+            <p>
+              I thrive ✨ at the intersection of design, art, writing, and development, but I&apos;ve also crafted visual
+              identities and digital experiences for major Brazilian companies like Petrobras, Vale, and Ambev. I also contributed to UX, marketing, and design at a fintech, CloudWalk.
+            </p>
+            <p>
+              I recently developed and released{" "}
+              <a
+                href="https://openzero.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold underline hover:text-[#5B8A87] transition-colors"
+              >
+                OpenZero
+              </a>
+              , a generative AI platform for image and video creation, as well as{" "}
+              <a
+                href="https://userecipfy.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold underline hover:text-[#5B8A87] transition-colors"
+              >
+                Recipfy
+              </a>
+              , an AI tool that leverages OCR technology to scan and organize recipes.
+            </p>
+            <p>
+              During the web3 craze, I created NFTs that sold on major markets like NiftyGateway and KnownOrigin, in addition to having my work showcased at NFT Paris 2023. I’ve also worked on illustration projects deeply connected to my roots, beginning in the early ’90s, while releasing Tecmo—a brutalist pixel typeface inspired by ’80s bitmap fonts—and authoring some books published worldwide through Apple iBooks, Amazon, and Kobo Rakuten.
+            </p>
+            <p>I live in Rio de Janeiro, Brazil.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 6. PARALLAX 2 - alexandre-bobeda.png */}
+      <ParallaxBanner
+        src="/alexandre-bobeda.png"
+        alt="Alexandre Bobeda"
+        heightClass="h-[380px] sm:h-[460px] md:h-[540px]"
+        objectPosition="center 20%"
+      />
+
+      {/* 7. CONTACT SECTION - Let's Connect */}
+      <section id="contact" className="py-16 md:py-24 px-6 max-w-4xl mx-auto w-full">
+        <div className="space-y-4">
+          <h2 className="text-[#5B8A87] text-lg font-bold">{"Let's Connect"}</h2>
+          <p className="text-gray-800">
+            <Link
+              href="mailto:abobeda@gmail.com?subject=Let's%20work%20together!"
+              className="text-[#5B8A87] underline hover:text-black transition-colors"
+            >
+              Reach me out
+            </Link>{" "}
+            if you&apos;re interested in working together.
+          </p>
+        </div>
+      </section>
+
+      {/* FOOTER - Mirwais style with copyright and ^ Top */}
+      <footer className="border-t border-gray-200 py-8 px-6 max-w-4xl mx-auto w-full flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+        <p>© 2026 Alexandre Bobeda / AB Studio</p>
+        <a
+          href="#top"
+          className="hover:text-black hover:underline transition-colors flex items-center gap-1 font-semibold"
+        >
+          ^ Top
+        </a>
+      </footer>
     </div>
   )
 }
