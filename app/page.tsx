@@ -7,6 +7,7 @@ import {
   RiLinkedinBoxFill,
 } from "@remixicon/react"
 import { ParallaxBanner } from "@/components/parallax-banner"
+import { PinballPunchTeaser } from "@/components/pinball-punch-teaser"
 
 const socialLinks = [
   {
@@ -120,7 +121,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2. SOCIAL STRIP - #222222 Background with Remix Icons */}
+      {/* 2. PINBALL PUNCH TEASER */}
+      <PinballPunchTeaser />
+
+      {/* 3. SOCIAL STRIP - #222222 Background with Remix Icons */}
       <section className="bg-[#222222] py-20 sm:py-24 md:py-28 px-6 w-full">
         <div className="max-w-xl mx-auto flex items-center justify-center gap-8 sm:gap-12 md:gap-16">
           {socialLinks.map((item) => {
@@ -141,7 +145,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3. PARALLAX 1 - space.jpg */}
+      {/* 4. PARALLAX 1 - space.jpg */}
       <ParallaxBanner
         src="/space.jpg"
         alt="Space exploration"

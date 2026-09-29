@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   title: "Alexandre Bobeda / AB Studio",
   description: "Visual Designer + Creative Coder",
   icons: {
-    icon: "/AB-Logo25.jpg",
-    shortcut: "/AB-Logo25.jpg",
-    apple: "/AB-Logo25.jpg",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 }
 
