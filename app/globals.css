@@ -18,6 +18,234 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.game-legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0 24px;
+}
+
+.game-legal-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color 150ms;
+}
+
+.game-legal-link:hover,
+.game-legal-link[aria-current="page"] {
+  color: #b9e774;
+}
+
+.game-legal-link:focus-visible,
+.game-policy-logo:focus-visible {
+  outline: 2px solid #b9e774;
+  outline-offset: 6px;
+}
+
+.game-policy-page {
+  min-height: 100vh;
+  background: #080b09;
+  color: #f4f5f2;
+}
+
+.game-policy-header {
+  position: relative;
+  width: 100%;
+  max-width: 1040px;
+  aspect-ratio: 1040 / 300;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #0d4523;
+}
+
+.game-policy-artwork {
+  object-fit: cover;
+  /* Keep the upper part of the artwork so the entire ball fits in the banner. */
+  object-position: center top;
+}
+
+.game-policy-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgb(3 17 10 / 75%), rgb(3 17 10 / 28%) 46%, transparent 72%);
+}
+
+.game-policy-logo {
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  width: 144px;
+}
+
+.game-policy-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.game-policy-title {
+  position: absolute;
+  bottom: 40px;
+  left: 32px;
+  width: 46%;
+}
+
+.game-policy-title p {
+  margin-bottom: 8px;
+  font-family: monospace;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.game-policy-title h1 {
+  font-family: 'Noka Bold', sans-serif;
+  font-size: clamp(18px, 4.3vw, 44px);
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+.game-policy-content {
+  width: 100%;
+  max-width: 800px;
+  padding: 32px 32px 0;
+  margin: 0 auto;
+}
+
+.game-policy-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px 24px;
+  color: #b9c2ba;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.game-policy-copy {
+  padding: 32px 0 56px;
+  font-size: 17px;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+}
+
+.game-policy-copy p,
+.game-policy-copy ul,
+.game-policy-copy ol {
+  margin-bottom: 24px;
+}
+
+.game-policy-copy h2,
+.game-policy-copy h3 {
+  margin: 48px 0 20px;
+  font-family: 'Noka Bold', sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.game-policy-copy h3 {
+  font-size: 20px;
+}
+
+.game-policy-copy ul,
+.game-policy-copy ol {
+  padding-left: 24px;
+}
+
+.game-policy-copy ul {
+  list-style: disc;
+}
+
+.game-policy-copy ol {
+  list-style: decimal;
+}
+
+.game-policy-copy li {
+  padding-left: 4px;
+  margin-bottom: 12px;
+}
+
+.game-policy-copy a {
+  color: #b9e774;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.game-policy-copy a:hover {
+  color: white;
+}
+
+.game-policy-copy a:focus-visible {
+  outline: 2px solid #b9e774;
+  outline-offset: 3px;
+}
+
+.game-policy-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  border-top: 1px solid #29332c;
+  padding: 24px 0;
+  color: #b9c2ba;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.game-policy-skip {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 10;
+  padding: 12px 16px;
+  background: #080b09;
+  color: white;
+  transform: translateY(-200%);
+}
+
+.game-policy-skip:focus {
+  transform: translateY(0);
+}
+
+@media (max-width: 640px) {
+  .game-policy-logo {
+    top: 12px;
+    left: 16px;
+    width: 88px;
+  }
+
+  .game-policy-title {
+    bottom: 14px;
+    left: 16px;
+  }
+
+  .game-policy-title p {
+    margin-bottom: 4px;
+    font-size: 9px;
+    letter-spacing: 0.06em;
+  }
+
+  .game-policy-content {
+    padding: 20px 24px 0;
+  }
+
+  .game-policy-copy {
+    padding-top: 24px;
+    font-size: 16px;
+  }
+
+  .game-policy-copy h2 {
+    margin-top: 36px;
+    font-size: 21px;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
