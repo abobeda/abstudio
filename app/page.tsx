@@ -214,14 +214,10 @@ export default function Home() {
           <h2 className="text-[#5B8A87] text-lg font-bold">Hi there!</h2>
           <div className="space-y-4 md:space-y-6 text-gray-800 leading-relaxed">
             <p>
-              I&apos;m Alexandre Bobeda, a visual designer, AI product designer, creative coder and UX/Copywriter who bridges creativity and art with code.
+              I&apos;m Alexandre Bobeda, a visual designer, product designer, and indie game developer based in Rio de Janeiro, Brazil. I work where design, art, storytelling, and code meet.
             </p>
             <p>
-              I thrive ✨ at the intersection of design, art, writing, and development, but I&apos;ve also crafted visual
-              identities and digital experiences for major Brazilian companies like Petrobras, Vale, and Ambev. I also contributed to UX, marketing, and design at a fintech, CloudWalk.
-            </p>
-            <p>
-              I recently developed and released{" "}
+              I&apos;ve built visual identities and digital experiences for Petrobras, Vale, and Ambev, and worked across UX, marketing, and design at CloudWalk. On my own, I make AI-powered apps for web and Windows, including{" "}
               <a
                 href="https://openzero.com.br"
                 target="_blank"
@@ -229,8 +225,8 @@ export default function Home() {
                 className="font-bold underline hover:text-[#5B8A87] transition-colors"
               >
                 OpenZero
-              </a>
-              , a generative AI platform for image and video creation, as well as{" "}
+              </a>{" "}
+              and{" "}
               <a
                 href="https://userecipfy.com"
                 target="_blank"
@@ -239,12 +235,11 @@ export default function Home() {
               >
                 Recipfy
               </a>
-              , an AI tool that leverages OCR technology to scan and organize recipes.
+              , alongside illustration, the pixel typeface Tecmo, and digital art exhibited at NFT Paris 2023.
             </p>
             <p>
-              During the web3 craze, I created NFTs that sold on major markets like NiftyGateway and KnownOrigin, in addition to having my work showcased at NFT Paris 2023. I’ve also worked on illustration projects deeply connected to my roots, beginning in the early ’90s, while releasing Tecmo—a brutalist pixel typeface inspired by ’80s bitmap fonts—and authoring some books published worldwide through Apple iBooks, Amazon, and Kobo Rakuten.
+              My first game, Pinball Punch, is an arcade title for Android, with space-themed action driven by my love of classic arcade games.
             </p>
-            <p>I live in Rio de Janeiro, Brazil.</p>
           </div>
         </div>
       </section>
