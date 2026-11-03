@@ -63,8 +63,11 @@ export function PinballPunchTeaser() {
         </div>
 
         {/* Google Play Badge: x=1345, y=736, w=314 on 1920x900 */}
-        <div
-          className="absolute"
+        <a
+          href="https://play.google.com/store/apps/details?id=com.alexandrebobeda.pinballpunch"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute block"
           style={{
             left: "70.05%", // 1345 / 1920
             top: "81.78%", // 736 / 900
@@ -78,7 +81,7 @@ export function PinballPunchTeaser() {
             height={93}
             className="w-full h-auto object-contain drop-shadow hover:scale-105 transition-transform duration-200"
           />
-        </div>
+        </a>
       </div>
       <div className="px-6 py-3 font-mono text-xs text-white">
         <PinballPunchLegalLinks />

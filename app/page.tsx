@@ -238,7 +238,16 @@ export default function Home() {
               , alongside illustration, the pixel typeface Tecmo, and digital art exhibited at NFT Paris 2023.
             </p>
             <p>
-              My first game, Pinball Punch, is an arcade title for Android, with space-themed action driven by my love of classic arcade games.
+              My first game,{" "}
+              <a
+                href="https://play.google.com/store/apps/details?id=com.alexandrebobeda.pinballpunch"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold underline hover:text-[#5B8A87] transition-colors"
+              >
+                Pinball Punch
+              </a>
+              , is an arcade title for Android, with space-themed action driven by my love of classic arcade games.
             </p>
           </div>
         </div>
