@@ -82,6 +82,14 @@ export function PinballPunchTeaser() {
             className="w-full h-auto object-contain drop-shadow hover:scale-105 transition-transform duration-200"
           />
         </a>
+
+        {/* Google Play trademark attribution */}
+        <p
+          className="absolute inset-x-0 bottom-[1.5%] text-center text-white/70 pointer-events-none leading-none"
+          style={{ fontSize: "clamp(6px, 0.55vw, 11px)" }}
+        >
+          Google Play and the Google Play logo are trademarks of Google LLC.
+        </p>
       </div>
       <div className="px-6 py-3 font-mono text-xs text-white">
         <PinballPunchLegalLinks />
