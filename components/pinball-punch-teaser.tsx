@@ -34,7 +34,7 @@ export function PinballPunchTeaser() {
           />
         </div>
 
-        {/* Logo & Coming Soon: x=1131, y=70, w=743 on 1920x900 */}
+        {/* Logo & Out Now: x=1131, y=70, w=743 on 1920x900 */}
         <div
           className="absolute flex flex-col items-center pointer-events-none"
           style={{
@@ -58,7 +58,7 @@ export function PinballPunchTeaser() {
               fontSize: "clamp(11px, 1.45vw, 28px)",
             }}
           >
-            COMING SOON...
+            OUT NOW
           </p>
         </div>
 
